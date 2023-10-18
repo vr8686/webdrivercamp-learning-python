@@ -1,4 +1,4 @@
-# Assignment 1: Python - Beginning!
+# Assignment 0x1: Python - Beginning!
 
 This directory contains completed assignment "Python - Beginning!"
 
