@@ -8,6 +8,7 @@ This repository contains the completed assignments and projects that I have work
 - Assignment 0x2: Python - Loops and more!!
 - Assignment 0x3: Python - import & modules
 - Assignment 0x4: Python - Data Structures
+- Assignment Python - Data Structures - Continue
 
 ## Contact Information
 
