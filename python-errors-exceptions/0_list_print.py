@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 def list_print(lst=[], i=0):
+    count_ = 0
     try:
-        print(*lst[:i], sep="")
-        x = 0
+        for item in lst[:i]:
+            print(item, end="")
+            count_ += 1
+    except IndexError:
         for item in lst:
-            x += 1
-        if i < x:
-            return int(i)
-        else:
-            return int(x)
-    except TypeError:
-        print("Oops!  That was no valid number.")
+            print(item, end="")
+            count_ += 1
+    print()
+    return count_
 
 
 if __name__ == "__main__":
@@ -21,3 +21,4 @@ if __name__ == "__main__":
     count = list_print(list_, len(list_))
     print(f"Count: {count:d}")
     count = list_print(list_, len(list_) + 2)
+    print(f"Count: {count:d}")
