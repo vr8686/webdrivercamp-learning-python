@@ -1,16 +1,14 @@
 #!/usr/bin/python3
-def list_int_print(lst, i=0):
-    try:
-        count = 0
-        for x in range(i):
-            if isinstance(lst[x], int):
-                count += 1
-                print(f"{lst[x]:d}", end="")
-        print()
-        return count
-    except IndexError as e:
-        print(e)
-        
+def list_int_print(lst=[], i=0):
+    count = 0
+    for x in range(0, i):
+        try:
+            print(f"{lst[x]:d}", end="")
+            count += 1
+        except (ValueError, TypeError):
+            continue
+    print()
+    return count
 
 
 if __name__ == "__main__":

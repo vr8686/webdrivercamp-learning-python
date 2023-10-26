@@ -9,6 +9,7 @@ This repository contains the completed assignments and projects that I have work
 - Assignment 0x3: Python - import & modules
 - Assignment 0x4: Python - Data Structures
 - Assignment Python - Data Structures - Continue
+- Assigment Python - Exceptions
 
 ## Contact Information
 
