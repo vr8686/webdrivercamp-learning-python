@@ -4,7 +4,7 @@ This directory contains completed assignment "Python - Exceptions"
 
 ## Contents
 
-- Exercise 0. Print a list: file [0_list_print.py](swebdrivercamp-learning-python/python-errors-exceptions/0_list_print.py)
+- Exercise 0. Print a list: file [0_list_print.py](python-errors-exceptions/0_list_print.py)
 - Exercise 1. Print an integer: file - [1_int_print.py](webdrivercamp-learning-python/python-errors-exceptions/1_int_print.py)
 - Exercise 2. Print list integers: file - [2_list_int_print.py](webdrivercamp-learning-python/python-errors-exceptions/2_list_int_print.py)
 - Exercide 3. Safe division: file - [3_divide_safe.py](webdrivercamp-learning-python/python-errors-exceptions/3_divide_safe.py)
