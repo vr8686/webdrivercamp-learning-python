@@ -1,0 +1,7 @@
+0 - //ul[@id="gh-topl"]/li | //ul[@id="gh-eb"]/li
+1 - //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"]
+2 - //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Brand"]
+2 - //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Color"]
+3 - //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Brand"]/ancestor::li[@class="x-refine__main__list "]//span[@class="cbx x-refine__multi-select-cbx"][text()="adidas"]
+    //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Color"]/ancestor::li[@class="x-refine__main__list "]//span[@class="cbx x-refine__multi-select-cbx"][text()="Blue"]
+
