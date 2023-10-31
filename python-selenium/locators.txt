@@ -4,4 +4,8 @@
 2 - //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Color"]
 3 - //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Brand"]/ancestor::li[@class="x-refine__main__list "]//span[@class="cbx x-refine__multi-select-cbx"][text()="adidas"]
     //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Color"]/ancestor::li[@class="x-refine__main__list "]//span[@class="cbx x-refine__multi-select-cbx"][text()="Blue"]
+4 - //ul[@class="srp-results srp-grid clearfix"]//span[@role="heading" and contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'ultrab')]/text()
+5 - 
 
+fn+F8
+set a breakpoint on attribute modification
