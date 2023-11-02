@@ -5,7 +5,9 @@
 3 - //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Brand"]/ancestor::li[@class="x-refine__main__list "]//span[@class="cbx x-refine__multi-select-cbx"][text()="adidas"]
     //div[@aria-controls!="x-refine__group__0"]//h3[@class="x-refine__item"][text()="Color"]/ancestor::li[@class="x-refine__main__list "]//span[@class="cbx x-refine__multi-select-cbx"][text()="Blue"]
 4 - //ul[@class="srp-results srp-grid clearfix"]//span[@role="heading" and contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'ultrab')]/text()
-5 - 
-
-fn+F8
-set a breakpoint on attribute modification
+5 - //li[@id="gh-eb-My"]//ul[@id="gh-ul-nav"]/li/a
+Different ways to pause the webpage:
+1) fn+F8 to paues the script execution
+2) set a breakpoint on attribute modification: find the dropdown menu link in Elements (DevTools) and check what is changing when you trigger it. Then set up a breakpoint on attribute modification and next time you trigger it, the page will be paused.
+3) setTimeout(function() {debugger;}, 3000); - write this in console
+5* - //li//div[@class="s-item__wrapper clearfix"]//span[@class="s-item__price"]//text()[substring-after(., "$") >= 20 and substring-after(., "$") < 200]/ancestor::li[@class="s-item s-item__pl-on-bottom"]//div[@class="x-star-rating"]//span[@class="clipped"][text()="5.0 out of 5 stars."]/ancestor::div[@class="s-item__reviews"]//span[@class="s-item__reviews-count"]//text()[translate(., "()", "") >= 10]/ancestor::div[@class="s-item__wrapper clearfix"]//span[@class="s-item__shipping s-item__logisticsCost"][text()="Free shipping"]/ancestor::div//div[@class="s-item__detail s-item__detail--primary"]//span[contains(@class,"s-item__discount")]//text()[substring-before(., "%") >= 20]
